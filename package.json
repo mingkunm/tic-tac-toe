@@ -9,7 +9,7 @@
 		"lint": "next lint",
 		"format": "prettier --write .",
 		"prepare": "husky install",
-		"precommit": "lint-staged"
+		"precommit": "lint-staged && yarn build"
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx}": [
