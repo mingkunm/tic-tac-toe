@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 
-import Board from '../components/Board'
+import App from '../containers/Container'
 
 const Home: NextPage = () => {
-	return <Board />
+	return <App />
 }
 
 export default Home

@@ -34,12 +34,10 @@ const BoardRow: FunctionComponent<BoardRowProps> = ({ rowData, rowIndex }) => {
 
 const Board: FunctionComponent = () => {
 	return (
-		<div className={styles.container}>
-			<div className={styles.board}>
-				{MockData.map((rowData, rowIndex) => (
-					<BoardRow rowData={rowData} rowIndex={rowIndex} key={rowIndex} />
-				))}
-			</div>
+		<div className={styles.board}>
+			{MockData.map((rowData, rowIndex) => (
+				<BoardRow rowData={rowData} rowIndex={rowIndex} key={rowIndex} />
+			))}
 		</div>
 	)
 }

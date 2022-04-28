@@ -5,7 +5,7 @@ const path = require('path')
 const nextConfig = {
 	reactStrictMode: true,
 	eslint: {
-		dirs: ['pages', 'components'],
+		dirs: ['pages', 'components', 'containers'],
 	},
 	sassOptions: {
 		includePaths: [path.join(__dirname, 'styles')],
